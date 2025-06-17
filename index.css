@@ -1,0 +1,137 @@
+body {
+  background-color: black;
+  background-image: url("condominio1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.cabeca {
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(48, 48, 48, 0.7);
+  border: 5px solid rgba(20, 20, 20, 0.7);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  
+}
+
+.cabeca > *:first-child{
+  justify-self: center;
+}
+
+.cabeca > *:nth-child(2){
+  justify-self: center;
+}
+
+.cabeca > *:last-child{
+  justify-self: center;
+}
+
+h1 {
+  padding: 0px 10px;
+  color: rgb(212, 18, 18);
+}
+
+h1:hover {
+  border: 5px solid rgba(177, 177, 177, 0.7);
+  border-radius: 5px;
+  background-color: rgb(177, 177, 177);
+}
+
+
+#perna {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  height: 77px;
+  background-color: rgba(48, 48, 48, 0.7);
+  border: 5px solid rgba(20, 20, 20, 0.7);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 725px;
+  top: 91%;
+  position: absolute;
+}
+
+#cd{
+  width: 30%;
+  height: 300px;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  border: 5px solid rgb(51, 51, 53);
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(196, 201, 201);
+}
+
+
+.form {
+    position: absolute;
+    top: 20%; 
+    right: 5%; 
+    background-color: rgba(44, 41, 41, 0.904);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(56, 55, 55, 0.5);
+    width: 350px;
+    
+}
+
+.form h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.form label {
+    display: block;
+    margin-top: 10px;
+    color: #bdbbbb;
+}
+
+.form- input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #313030;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #025509;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #7c7c7c;
+}
+
+h1.cond::first-line{
+  font-style: italic;
+  color: rgb(95, 113, 163)
+}
+
+h4{
+font-size: 20px;
+color: #cecaca;
+}
